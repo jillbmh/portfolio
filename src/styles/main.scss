@@ -1,0 +1,94 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import './partials/about.scss';
+@import './partials/footer.scss';
+@import './partials/header.scss';
+@import './partials/interests.scss';
+@import './partials/intro.scss';
+@import './partials/experience.scss';
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+* {
+    color: #F5F5F5;
+    font-family: 'Kantumruy';
+    text-align: center;
+}
+
+body {
+    background-color: #3C2B3E;
+}
+
+h1 {
+    font-family: 'Cookie';
+    font-size: 48px;
+}
+
+.contact-button {
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: #F5F5F5;
+    color: #F5F5F5;
+    text-decoration: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color:#F5F5F5;
+    color: #3C2B3E;
+    border-color: #3C2B3E;
+}
+// p {
+
+// }
+
+section {
+    border-bottom: solid;
+    border-color: #F5F5F5;
+    border-width: 0.2px;
+}
+
+.icons {
+    border-style: solid;
+    border-color: #F5F5F5;
+    border-radius: 360px;
+    border-width: thin;
+}
+
+.icons:hover {
+    transform: scale(1.1);
+}
+
+.intro-container {
+    background-image: url('../images/desk-coffee.jpg');
+    background-size: cover;
+    .profile-photo {
+        max-width: 7rem;
+        border-radius: 360px;
+    }
+}
+
+.about-container {
+    background-image: url('../images/dark-theme-laptop.jpg');
+    background-size: cover;   
+}
+
+.interests-container {
+    background-image: url('../images/camping.jpg');
+    background-size: cover;
+}
+
+.home-page-footer {
+    border-top: solid;
+    border-color: #F5F5F5;
+    border-width: 0.2px;
+}
+
+.carousel {
+    position: relative;
+    background-color: tomato;
+    font-size: 10rem;
+    color: black;
+    min-height: 15vh;
+}
+
