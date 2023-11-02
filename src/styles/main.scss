@@ -85,10 +85,21 @@ section {
 }
 
 .carousel {
-    position: relative;
-    background-color: tomato;
-    font-size: 10rem;
+    font-size: 1rem;
     color: black;
     min-height: 15vh;
+    .carousel-caption {
+        position: relative;
+    }
 }
 
+.skills-icons {
+    border-radius: 360px;
+    font-size: 20px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #F5F5F5;
+    background-color: #766a7d;
+    border-width: thin;
+    color: #F5F5F5;
+}
