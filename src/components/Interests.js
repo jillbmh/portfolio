@@ -6,7 +6,7 @@ export default function Interests(){
     return (
       <section className="interests-container">
         <h1>Interests</h1>
-        <p>
+        <p className="interests-text">
         I love all things outdoors, particularly camping, campfires and breakfast cooked on a tiny camping stove with a mug of tea (heaven!). I enjoy these with my family which includes 2 rescue Pointers.
         </p>
         <div className="home-page-footer">

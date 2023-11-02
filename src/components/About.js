@@ -20,28 +20,29 @@ export default function About(){
             <p>
             After 17 years working in the social care sector, I have pivoted to the tech world, graduating from the General Assembly Software Engineering Course in October 2023. In my previous role, I tackled complex challenges, honed problem-solving skills, and developed a deep commitment to community well-being. These experiences fuel my passion for using technology to make a positive impact. In the social care sector, I developed a strong passion for accessibility. As a Junior Developer, I'm excited to bring this focus into the tech world by blending my coding skills with my drive to make platforms more user-friendly. I'm excited to grow as a Junior Developer and look forward to contributing to a team that values inclusivity.
             </p>
-            
-            <i class="devicon-html5-plain skills-icons"></i>
-            <i class="devicon-css3-plain skills-icons"></i>
-            <i class="devicon-sass-original skills-icons"></i>
-            <i class="devicon-javascript-plain skills-icons" ></i>
-            <i class="devicon-react-original skills-icons"></i>
-            <i class="devicon-bootstrap-plain skills-icons"></i>
-            <i class="devicon-nodejs-plain skills-icons"></i>
-            <i class="devicon-express-original skills-icons"></i>
-            <i class="devicon-mongodb-plain skills-icons"></i>
-            <i class="devicon-postgresql-plain skills-icons"></i>
-            <i class="devicon-python-plain skills-icons"></i>
-            <i class="devicon-django-plain skills-icons"></i>
-            <i class="devicon-git-plain skills-icons"></i>
-            <i class="devicon-github-original skills-icons"></i>
-            <i class="devicon-heroku-original skills-icons"></i>
-            <i class="devicon-canva-original skills-icons"></i>
-            <i class="devicon-codepen-plain skills-icons"></i>
-            <i class="devicon-figma-plain skills-icons"></i>
-            <i class="devicon-markdown-original skills-icons"></i>
-            <i class="devicon-slack-plain skills-icons"></i>
-            <i class="devicon-vscode-plain skills-icons"></i>
+            <div className='icons-container'>
+                <i className="devicon-html5-plain skills-icons"></i>
+                <i className="devicon-css3-plain skills-icons"></i>
+                <i className="devicon-sass-original skills-icons"></i>
+                <i className="devicon-javascript-plain skills-icons" ></i>
+                <i className="devicon-react-original skills-icons"></i>
+                <i className="devicon-bootstrap-plain skills-icons"></i>
+                <i className="devicon-nodejs-plain skills-icons"></i>
+                <i className="devicon-express-original skills-icons"></i>
+                <i className="devicon-mongodb-plain skills-icons"></i>
+                <i className="devicon-postgresql-plain skills-icons"></i>
+                <i className="devicon-python-plain skills-icons"></i>
+                <i className="devicon-django-plain skills-icons"></i>
+                <i className="devicon-git-plain skills-icons"></i>
+                <i className="devicon-github-original skills-icons"></i>
+                <i className="devicon-heroku-original skills-icons"></i>
+                <i className="devicon-canva-original skills-icons"></i>
+                <i className="devicon-codepen-plain skills-icons"></i>
+                <i className="devicon-figma-plain skills-icons"></i>
+                <i className="devicon-markdown-original skills-icons"></i>
+                <i className="devicon-slack-plain skills-icons"></i>
+                <i className="devicon-vscode-plain skills-icons"></i>
+            </div>
             <Carousel className="carousel-container" data-bs-theme="light">
                 <Carousel.Item>
                     <Carousel.Caption>
