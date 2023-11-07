@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b8adbb3.css",
+    "main.js": "/static/js/main.be9063e7.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/desk-coffee.jpg": "/static/media/desk-coffee.44acf8a2879d3bbca8ac.jpg",
+    "static/media/camping.jpg": "/static/media/camping.49d62cfbdc771a4e4c2b.jpg",
+    "static/media/dark-theme-laptop.jpg": "/static/media/dark-theme-laptop.9c3e47a952423dafa942.jpg",
+    "static/media/Whats for Dinner.png": "/static/media/Whats for Dinner.60ceb3c24479198d4310.png",
+    "static/media/DOM.png": "/static/media/DOM.01aca7b1e55a767fcd2e.png",
+    "static/media/CHESS.png": "/static/media/CHESS.fd8c34cf52646453447e.png",
+    "static/media/Portfolio.jpeg": "/static/media/Portfolio.c93132c256603e3f2f6b.jpeg",
+    "static/media/Bluey-Game.png": "/static/media/Bluey-Game.664d8080786a2c03b3db.png",
+    "static/media/AFJH.png": "/static/media/AFJH.26b2ced1ee282eb1692d.png",
+    "static/media/FF- Broken.png": "/static/media/FF- Broken.bdf4da08fdc1eff85e9a.png",
+    "index.html": "/index.html",
+    "main.6b8adbb3.css.map": "/static/css/main.6b8adbb3.css.map",
+    "main.be9063e7.js.map": "/static/js/main.be9063e7.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b8adbb3.css",
+    "static/js/main.be9063e7.js"
+  ]
+}
