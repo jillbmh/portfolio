@@ -23,7 +23,7 @@ export default function About() {
             <p>
                 After 17 years working in the social care sector, I have pivoted to the tech world, graduating from the General Assembly Software Engineering Course in October 2023. In my previous role, I tackled complex challenges, honed problem-solving skills, and developed a deep commitment to community well-being. These experiences fuel my passion for using technology to make a positive impact. In the social care sector, I developed a strong passion for accessibility. As a Junior Developer, I'm excited to bring this focus into the tech world by blending my coding skills with my drive to make platforms more user-friendly. I'm excited to grow as a Junior Developer and look forward to contributing to a team that values inclusivity.
             </p>
-            <div className="App">
+            {/* <div className="App">
                 <Tooltip text="This is a heading!">
                     <h1>Hello World</h1>
                 </Tooltip>
@@ -33,7 +33,7 @@ export default function About() {
                         Hover over this text and see for yourself.
                     </Tooltip>
                 </p>
-            </div>
+            </div> */}
             <div className='icons-container'>
                 <i class="devicon-html5-plain skills-icons"></i>
                 <i className="devicon-css3-plain skills-icons"></i>
