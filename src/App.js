@@ -1,10 +1,13 @@
-// import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import './styles/main.scss'
 import Header from './components/Header'
-import Home from './components/Home'
-import Contact from './components/Contact'
 import PageNotFound from './components/PageNotFound'
+import Interests from './components/Interests'
+import About from './components/About'
+import Projects from './components/Experience'
+import Home from './components/Home';
+
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
@@ -14,7 +17,9 @@ function App() {
       <Header />
       <Routes>
         <Route path ='/' element={<Home />} />
-        <Route path = '/contact' element= { <Contact/>} />
+        <Route path = '/interests' element={<Interests />} />
+        <Route path = '/about' element={<About />} />
+        <Route path = '/projects' element={<Projects/>} />
         <Route path ='*' element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
@@ -23,19 +28,4 @@ function App() {
 
 export default App;
 
-// <div className="App">
-// <header className="App-header">
-//   <img src={logo} className="App-logo" alt="logo" />
-//   <p>
-//     Edit <code>src/App.js</code> and save to reload.
-//   </p>
-//   <a
-//     className="App-link"
-//     href="https://reactjs.org"
-//     target="_blank"
-//     rel="noopener noreferrer"
-//   >
-//     Learn React
-//   </a>
-// </header>
-// </div>
+

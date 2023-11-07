@@ -1,0 +1,11 @@
+.interests-container h1 {
+  padding-top: 4rem;
+}
+.interests-container p {
+  padding: 5rem;
+}
+
+.profile-photo {
+  max-width: 6rem;
+  border-radius: 360px;
+}/*# sourceMappingURL=interests.css.map */

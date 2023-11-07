@@ -1,10 +1,14 @@
 .header-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     padding: 0.3rem;
-    a {
+    span {
         text-decoration: none;
         color: #F5F5F5;
     }
-    a:hover {
+    span:hover {
         text-decoration: underline;
+        cursor: pointer;
     }
 }

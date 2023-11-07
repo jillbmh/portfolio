@@ -1,0 +1,188 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+.about-container {
+  padding: 2rem;
+}
+
+.carousel {
+  font-size: 1rem;
+  color: black;
+  min-height: 15vh;
+}
+.carousel .carousel-caption {
+  position: relative;
+}
+
+.carousel-inner {
+  width: 75%;
+  overflow: visible;
+}
+
+.icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.icons-container .skills-icons {
+  border-radius: 360px;
+  font-size: 20px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #F5F5F5;
+  background-color: #766a7d;
+  border-width: thin;
+  color: #F5F5F5;
+  margin: 2px;
+}
+
+.home-page-footer {
+  border-top: solid;
+  border-color: #F5F5F5;
+  border-width: 0.2px;
+}
+
+.header-nav {
+  padding: 0.3rem;
+}
+.header-nav a {
+  text-decoration: none;
+  color: #F5F5F5;
+}
+.header-nav a:hover {
+  text-decoration: underline;
+}
+
+.interests-container h1 {
+  padding-top: 4rem;
+}
+.interests-container p {
+  padding: 5rem;
+}
+
+.profile-photo {
+  max-width: 6rem;
+  border-radius: 360px;
+}
+
+.intro-container {
+  min-height: 40vh;
+}
+
+.experience-container {
+  min-height: 20vh;
+  overflow: hidden;
+}
+
+.animation-container {
+  position: relative;
+}
+.animation-container .animated-words {
+  font-family: "Cookie";
+  max-width: 100vw;
+  font-size: 2rem;
+  position: relative;
+  top: 3rem;
+  transform-style: preserve-3d;
+  will-change: transform;
+  transform: translate3d(0%, -50%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  opacity: 1;
+  animation: scrollText 20s linear infinite;
+}
+@keyframes scrollText {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.projects-container .project-item {
+  border-style: solid;
+  border-radius: 2px;
+  margin: 1rem;
+  border-color: #766a78;
+  background-color: #766a78;
+}
+.projects-container .project-item p {
+  margin-bottom: 0;
+  max-width: 120px;
+  margin-top: 0;
+}
+
+* {
+  color: #F5F5F5;
+  font-family: "Kantumruy";
+  text-align: center;
+}
+
+body {
+  background-color: #3C2B3E;
+}
+
+h1 {
+  font-family: "Cookie";
+  font-size: 48px;
+}
+
+.contact-button {
+  border-style: solid;
+  border-width: 0.2px;
+  border-color: #F5F5F5;
+  color: #F5F5F5;
+  text-decoration: none;
+  margin-bottom: 10px;
+  background-color: rgba(60, 43, 62, 0.431372549);
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 0.4rem;
+}
+
+.contact-button:hover {
+  background-color: #F5F5F5;
+  color: #3C2B3E;
+  border-color: #3C2B3E;
+}
+
+section {
+  border-bottom: solid;
+  border-color: #F5F5F5;
+  border-width: 0.2px;
+}
+
+.icons {
+  border-style: solid;
+  border-color: #F5F5F5;
+  border-radius: 360px;
+  border-width: thin;
+  margin: 2px;
+}
+
+.icons:hover {
+  transform: scale(1.1);
+}
+
+.intro-container {
+  background: linear-gradient(0deg, rgba(60, 43, 62, 0.7), rgba(60, 43, 62, 0.7)), url("../images/desk-coffee.jpg");
+  background-size: cover;
+}
+
+.about-container {
+  background: linear-gradient(0deg, rgba(60, 43, 62, 0.7), rgba(60, 43, 62, 0.7)), url("../images/dark-theme-laptop.jpg");
+  background-size: cover;
+}
+
+.interests-container {
+  background: linear-gradient(0deg, rgba(60, 43, 62, 0.7), rgba(60, 43, 62, 0.7)), url("../images/camping.jpg");
+  background-size: cover;
+}/*# sourceMappingURL=main.css.map */

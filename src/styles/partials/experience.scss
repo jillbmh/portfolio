@@ -1,5 +1,6 @@
 .experience-container {
   min-height: 20vh;
+  overflow: hidden;
 }
 
 .animation-container {
@@ -38,10 +39,37 @@
     margin: 1rem;
     border-color: #766a78;
     background-color: #766a78;
+    display: flex;
+    flex-direction: column;
+    max-width: 125px;
+}
     p {
       margin-bottom: 0;
       max-width: 120px;
       margin-top: 0;
     }
+    }
+
+  .project-buttons {
+    background-color: #766a78;
+    border-radius: 2px;
+    a {
+      color: #F5F5F5;
+      text-decoration: none;
+    }
+  }
+
+  .project-buttons:hover {
+    color: #766a78;
+    background-color: #F5F5F5;
+    a:hover {
+      color:#3C2B3E;
+    }
+  }
+
+  .modal-content {
+    background-color: #F5F5F5;
+    .modal-body, .modal-header {
+      color: #3C2B3E;
     }
   }
