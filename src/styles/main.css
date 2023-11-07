@@ -1,8 +1,15 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .about-container {
   padding: 2rem;
+}
+.about-container h2 {
+  font-size: calc(1rem + 0.9vw);
+}
+.about-container p {
+  font-size: calc(0.7rem + 0.9vw);
 }
 
 .carousel {
@@ -38,28 +45,29 @@
   margin: 2px;
 }
 
-.home-page-footer {
-  border-top: solid;
-  border-color: #F5F5F5;
-  border-width: 0.2px;
-}
-
 .header-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   padding: 0.3rem;
 }
-.header-nav a {
+.header-nav span {
   text-decoration: none;
   color: #F5F5F5;
 }
-.header-nav a:hover {
+.header-nav span:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .interests-container h1 {
   padding-top: 4rem;
 }
 .interests-container p {
-  padding: 5rem;
+  padding: 2rem;
+}
+.interests-container p {
+  font-size: calc(0.7rem + 0.9vw);
 }
 
 .profile-photo {
@@ -69,6 +77,16 @@
 
 .intro-container {
   min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.intro-container a {
+  width: 130px;
+}
+.intro-container p {
+  font-size: calc(1rem + 0.9vw);
 }
 
 .experience-container {
@@ -113,17 +131,77 @@
   margin: 1rem;
   border-color: #766a78;
   background-color: #766a78;
+  display: flex;
+  flex-direction: column;
+  max-width: 125px;
 }
-.projects-container .project-item p {
+.projects-container p {
   margin-bottom: 0;
   max-width: 120px;
   margin-top: 0;
 }
 
+.project-buttons {
+  background-color: #766a78;
+  border-radius: 2px;
+}
+.project-buttons a {
+  color: #F5F5F5;
+  text-decoration: none;
+}
+
+.project-buttons:hover {
+  color: #766a78;
+  background-color: #F5F5F5;
+}
+.project-buttons:hover a:hover {
+  color: #3C2B3E;
+}
+
+.modal-content {
+  background-color: #F5F5F5;
+}
+.modal-content .modal-body, .modal-content .modal-header {
+  color: #3C2B3E;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-top: 5px;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
 * {
   color: #F5F5F5;
-  font-family: "Kantumruy";
+  font-family: "Montserrat";
   text-align: center;
+}
+
+a {
+  color: #F5F5F5;
 }
 
 body {
@@ -165,7 +243,7 @@ section {
   border-color: #F5F5F5;
   border-radius: 360px;
   border-width: thin;
-  margin: 2px;
+  margin: 5px;
 }
 
 .icons:hover {
@@ -176,13 +254,33 @@ section {
   background: linear-gradient(0deg, rgba(60, 43, 62, 0.7), rgba(60, 43, 62, 0.7)), url("../images/desk-coffee.jpg");
   background-size: cover;
 }
+@media (min-width: 650px) {
+  .intro-container {
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 650px) {
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 .about-container {
   background: linear-gradient(0deg, rgba(60, 43, 62, 0.7), rgba(60, 43, 62, 0.7)), url("../images/dark-theme-laptop.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .interests-container {
   background: linear-gradient(0deg, rgba(60, 43, 62, 0.7), rgba(60, 43, 62, 0.7)), url("../images/camping.jpg");
   background-size: cover;
+}
+@media (min-width: 650px) {
+  .interests-container {
+    background-position: center;
+  }
 }/*# sourceMappingURL=main.css.map */

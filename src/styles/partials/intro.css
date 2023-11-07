@@ -1,3 +1,13 @@
 .intro-container {
   min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.intro-container a {
+  width: 130px;
+}
+.intro-container p {
+  font-size: calc(1rem + 0.9vw);
 }/*# sourceMappingURL=intro.css.map */

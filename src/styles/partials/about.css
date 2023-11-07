@@ -1,6 +1,12 @@
 .about-container {
   padding: 2rem;
 }
+.about-container h2 {
+  font-size: calc(1rem + 0.9vw);
+}
+.about-container p {
+  font-size: calc(0.7rem + 0.9vw);
+}
 
 .carousel {
   font-size: 1rem;

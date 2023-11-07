@@ -54,12 +54,22 @@
   background-color: #766a78;
   border-radius: 2px;
 }
+.project-buttons a {
+  color: #F5F5F5;
+  text-decoration: none;
+}
 
 .project-buttons:hover {
   color: #766a78;
   background-color: #F5F5F5;
 }
+.project-buttons:hover a:hover {
+  color: #3C2B3E;
+}
 
 .modal-content {
-  background-color: #766a78;
+  background-color: #F5F5F5;
+}
+.modal-content .modal-body, .modal-content .modal-header {
+  color: #3C2B3E;
 }/*# sourceMappingURL=experience.css.map */
