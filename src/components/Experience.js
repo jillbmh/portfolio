@@ -1,6 +1,6 @@
 import Bluey from '../images/Bluey-Game.png'
 import AFJH from '../images/AFJH.png'
-import Flavour from '../images/FF- Broken.png'
+import Flavour from '../images/flavour-finder-home-page.png'
 import Dinner from '../images/Whats for Dinner.png'
 import { useState } from 'react'
 import Modal from 'react-bootstrap/Modal'
