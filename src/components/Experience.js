@@ -97,7 +97,7 @@ export default function Experience() {
               </Button>
               <Button className="project-buttons"
                 variant="secondary" onClick={handleCloseFF}>
-                <Link to="https://flavourfinder-b2585a80ca2e.herokuapp.com/" target="_blank" className="link-text">Visit the Site</Link>
+                <Link to="https://flavour-finder-8b73448b0764.herokuapp.com/" target="_blank" className="link-text">Visit the Site</Link>
               </Button>
               <Button className="project-buttons"
                 variant="secondary" onClick={handleCloseFF}>
