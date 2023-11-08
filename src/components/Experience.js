@@ -32,7 +32,7 @@ export default function Experience() {
       </div>
       <div className="projects-container">
         <article className="project-item">
-          <img src={Bluey} alt="Bluey-Game" style={{ height: 120, width: 120 }}></img>
+          <img src={Bluey} alt="Bluey-Game" style={{ height: 175, width: 175 }}></img>
           <Link className='project-buttons' onClick={handleShowBluey}>Blueys Obstacle Course</Link>
           <Modal show={showBluey} onHide={handleCloseBluey}>
             <Modal.Header closeButton>
@@ -57,7 +57,7 @@ export default function Experience() {
           </Modal>
         </article>
         <article className="project-item">
-          <img src={AFJH} alt="AFJH Store" style={{ height: 120, width: 120 }}></img>
+          <img src={AFJH} alt="AFJH Store" style={{ height: 175, width: 175}}></img>
           <Link className='project-buttons' onClick={handleShowAFJH}>AFJH Store</Link>
           <Modal show={showAFJH} onHide={handleCloseAFJH}>
             <Modal.Header closeButton>
@@ -82,7 +82,7 @@ export default function Experience() {
           </Modal>
         </article>
         <article className="project-item">
-          <img src={Flavour} alt="Flavour Finder" style={{ height: 120, width: 120 }}></img>
+          <img src={Flavour} alt="Flavour Finder" style={{ height: 175, width: 175  }}></img>
           <Link className='project-buttons' onClick={handleShowFF}>Flavour Finder</Link >
           <Modal show={showFF} onHide={handleCloseFF}>
             <Modal.Header closeButton>
@@ -107,7 +107,7 @@ export default function Experience() {
           </Modal>
         </article>
         <article className="project-item">
-          <img src={Dinner} alt="Whats for Dinner" style={{ height: 120, width: 120 }}></img>
+          <img src={Dinner} alt="Whats for Dinner" style={{ height: 175, width: 175}}></img>
           <Link className='project-buttons' onClick={handleShowWFD}>What's for Dinner</Link>
           <Modal show={showWFD} onHide={handleCloseWFD}>
             <Modal.Header closeButton>
