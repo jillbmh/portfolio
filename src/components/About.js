@@ -1,61 +1,51 @@
 
 import { SocialIcon } from 'react-social-icons'
 import Carousel from 'react-bootstrap/Carousel'
-// import { Tooltip } from 'react-tooltip'
-
 export default function About() {
 
 
     return (
-        <section className='about-container' id='about'>
-            <h1>About Jill</h1>
-            <h2>
-                Junior Developer | Junior Software Engineer
-            </h2>
-            <h2>
-                Harrogate | Leeds | York
-            </h2>
-            <a href="mailto:jillian.bethany.henderson@gmail.com" className='email-link'>jillian.bethany.henderson@gmail.com</a>
-            <nav>
-                <SocialIcon url="https://linkedin.com/in/jill-bmh" className='icons' bgColor='#766A78' style={{ height: 35, width: 35 }} />
-                <SocialIcon url="http://github.com/jillbmh" className='icons' bgColor='#766A78' style={{ height: 35, width: 35 }} />
-            </nav>
-            <p>
-                After 17 years working in the social care sector, I have pivoted to the tech world, graduating from the General Assembly Software Engineering Course in October 2023. In my previous role, I tackled complex challenges, honed problem-solving skills, and developed a deep commitment to community well-being. These experiences fuel my passion for using technology to make a positive impact. In the social care sector, I developed a strong passion for accessibility. As a Junior Developer, I'm excited to bring this focus into the tech world by blending my coding skills with my drive to make platforms more user-friendly. I'm excited to grow as a Junior Developer and look forward to contributing to a team that values inclusivity.
-            </p>
-            {/* <div className="App">
-                <Tooltip text="This is a heading!">
-                    <h1>Hello World</h1>
-                </Tooltip>
+        <>
 
+            <section className='about-container' id='about'>
+                <h1>About Jill</h1>
+                <h2>
+                    Junior Developer | Junior Software Engineer
+                </h2>
+                <h2>
+                    Harrogate | Leeds | York
+                </h2>
+                <a href="mailto:jillian.bethany.henderson@gmail.com" className='email-link'>jillian.bethany.henderson@gmail.com</a>
+                <nav>
+                    <SocialIcon url="https://linkedin.com/in/jill-bmh" className='icons' bgColor='#766A78' style={{ height: 35, width: 35 }} />
+                    <SocialIcon url="http://github.com/jillbmh" className='icons' bgColor='#766A78' style={{ height: 35, width: 35 }} />
+                </nav>
                 <p>
-                    <Tooltip text="this is a sentence">
-                        Hover over this text and see for yourself.
-                    </Tooltip>
+                    After 17 years working in the social care sector, I have pivoted to the tech world, graduating from the General Assembly Software Engineering Course in October 2023. In my previous role, I tackled complex challenges, honed problem-solving skills, and developed a deep commitment to community well-being. These experiences fuel my passion for using technology to make a positive impact. In the social care sector, I developed a strong passion for accessibility. As a Junior Developer, I'm excited to bring this focus into the tech world by blending my coding skills with my drive to make platforms more user-friendly. I'm excited to grow as a Junior Developer and look forward to contributing to a team that values inclusivity.
                 </p>
-            </div> */}
+
             <div className='icons-container'>
-                <i class="devicon-html5-plain skills-icons"></i>
-                <i className="devicon-css3-plain skills-icons"></i>
-                <i className="devicon-sass-original skills-icons"></i>
-                <i className="devicon-javascript-plain skills-icons" ></i>
-                <i className="devicon-react-original skills-icons"></i>
-                <i className="devicon-bootstrap-plain skills-icons"></i>
-                <i className="devicon-nodejs-plain skills-icons"></i>
-                <i className="devicon-express-original skills-icons"></i>
-                <i className="devicon-mongodb-plain skills-icons"></i>
-                <i className="devicon-postgresql-plain skills-icons"></i>
-                <i className="devicon-python-plain skills-icons"></i>
-                <i className="devicon-django-plain skills-icons"></i>
-                <i className="devicon-git-plain skills-icons"></i>
-                <i className="devicon-github-original skills-icons"></i>
-                <i className="devicon-heroku-original skills-icons"></i>
-                <i className="devicon-canva-original skills-icons"></i>
-                <i className="devicon-codepen-plain skills-icons"></i>
-                <i className="devicon-figma-plain skills-icons"></i>
-                <i className="devicon-markdown-original skills-icons"></i>
-                <i className="devicon-slack-plain skills-icons"></i>
-                <i className="devicon-vscode-plain skills-icons"></i>
+                <i className="devicon-html5-plain skills-icons" id="HTML 5"></i>
+                <i className="devicon-css3-plain skills-icons" id='CSS 3'></i>
+                <i className="devicon-sass-original skills-icons" id='SASS'></i>
+                <i className="devicon-javascript-plain skills-icons" id='JavaScript'></i>
+                <i className="devicon-react-original skills-icons" id='React'></i>
+                <i className="devicon-bootstrap-plain skills-icons" id='Bootstrap'></i>
+                <i className="devicon-nodejs-plain skills-icons" id='node.js'></i>
+                <i className="devicon-express-original skills-icons" id='express.js'></i>
+                <i className="devicon-mongodb-plain skills-icons" id='MongoDB'></i>
+                <i className="devicon-postgresql-plain skills-icons" id='PostgreSQL'></i>
+                <i className="devicon-python-plain skills-icons" id='Python'></i>
+                <i className="devicon-django-plain skills-icons" id='Django'></i>
+                <i className="devicon-git-plain skills-icons" id='Git'></i>
+                <i className="devicon-github-original skills-icons" id='GitHub'></i>
+                <i className="devicon-heroku-original skills-icons" id='Heroku'></i>
+                <i className="devicon-canva-original skills-icons" id='Canva'></i>
+                <i className="devicon-codepen-plain skills-icons" id='Codepen'></i>
+                <i className="devicon-figma-plain skills-icons" id='Figma'></i>
+                <i className="devicon-markdown-original skills-icons" id='Markdown'></i>
+                <i className="devicon-slack-plain skills-icons" id='Slack'></i>
+                <i className="devicon-vscode-plain skills-icons" id='VS Code'></i> 
             </div>
             <Carousel className="carousel-container" data-bs-theme="light" data-bs-interval="false" >
                 <Carousel.Item data-bs-interval="false">
@@ -88,6 +78,7 @@ export default function About() {
                 </Carousel.Item>
             </Carousel>
             <a href="mailto:jillian.bethany.henderson@gmail.com" className='contact-button'>GET IN TOUCH</a>
-        </section>
+        </section >
+        </>
     )
 }
