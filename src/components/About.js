@@ -1,7 +1,7 @@
 
 import { SocialIcon } from 'react-social-icons'
 import Carousel from 'react-bootstrap/Carousel'
-// import Tooltip from './Tooltip'
+// import { Tooltip } from 'react-tooltip'
 
 export default function About() {
 

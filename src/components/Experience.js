@@ -31,51 +31,26 @@ export default function Experience() {
         </div>
       </div>
       <div className="projects-container">
-        <article className="project-item">
-          <img src={Bluey} alt="Bluey-Game" style={{ height: 175, width: 175 }}></img>
-          <Link className='project-buttons' onClick={handleShowBluey}>Blueys Obstacle Course</Link>
-          <Modal show={showBluey} onHide={handleCloseBluey}>
+      <article className="project-item">
+          <img src={Dinner} alt="Whats for Dinner" style={{ height: 175, width: 175}}></img>
+          <Link className='project-buttons' onClick={handleShowWFD}>What's for Dinner</Link>
+          <Modal show={showWFD} onHide={handleCloseWFD}>
             <Modal.Header closeButton>
-              <Modal.Title>Blueys Obstacle Course</Modal.Title>
+              <Modal.Title>What's for Dinner</Modal.Title>
             </Modal.Header>
-            <Modal.Body>This was a 7-day solo project where I re-created the classic arcade game Frogger, taking inspiration from my youngest daughter's favourite TV show, Bluey.
+            <Modal.Body> This was a 10-day project where I created a full-stack app with a React front end and Django Rest Framework back end. It is an app for people with a Learning Disability and their carers to support people to gain independence in choosing their meals.
             </Modal.Body>
             <Modal.Footer>
               <Button className="project-buttons"
-                variant="secondary" onClick={handleCloseBluey}>
-                <Link to= "https://github.com/jillbmh/Blueys-Obstacle-Course" target="_blank" className="link-text">View on GitHub</Link>
+                variant="secondary" onClick={handleCloseWFD}>
+                <Link to="https://github.com/jillbmh/whats-for-dinner" target="_blank" className="link-text">View on GitHub</Link>
               </Button>
               <Button className="project-buttons"
-                variant="secondary" onClick={handleCloseBluey}>
-                <Link to="https://jillbmh.github.io/Blueys-Obstacle-Course/" target="_blank" className="link-text">Play</Link>
+                variant="secondary" onClick={handleCloseWFD}>
+                <Link to="https://whats-for-dinner-jbmh-667af0679eab.herokuapp.com/"  target="_blank" className="link-text">Visit the Site</Link>
               </Button>
               <Button className="project-buttons"
-                variant="secondary" onClick={handleCloseBluey}>
-                Close
-              </Button>
-            </Modal.Footer>
-          </Modal>
-        </article>
-        <article className="project-item">
-          <img src={AFJH} alt="AFJH Store" style={{ height: 175, width: 175}}></img>
-          <Link className='project-buttons' onClick={handleShowAFJH}>AFJH Store</Link>
-          <Modal show={showAFJH} onHide={handleCloseAFJH}>
-            <Modal.Header closeButton>
-              <Modal.Title>AFJH Store</Modal.Title>
-            </Modal.Header>
-            <Modal.Body>This was a pair project. In 2 days we created a basic ecommerce site consuming a third party API.
-            </Modal.Body>
-            <Modal.Footer>
-              <Button className="project-buttons"
-                variant="secondary" onClick={handleCloseAFJH}>
-                <Link to= "https://github.com/jillbmh/afjh-store" target="_blank" className="link-text">View on GitHub</Link>
-              </Button>
-              <Button className="project-buttons"
-                variant="secondary" onClick={handleCloseAFJH}>
-                <Link to= "https://64f5fc719369b4070a913fcd--jhaf-store.netlify.app/" target="_blank" className="link-text">Visit the Store</Link>
-              </Button>
-              <Button className="project-buttons"
-                variant="secondary" onClick={handleCloseAFJH}>
+                variant="secondary" onClick={handleCloseWFD}>
                 Close
               </Button>
             </Modal.Footer>
@@ -107,25 +82,50 @@ export default function Experience() {
           </Modal>
         </article>
         <article className="project-item">
-          <img src={Dinner} alt="Whats for Dinner" style={{ height: 175, width: 175}}></img>
-          <Link className='project-buttons' onClick={handleShowWFD}>What's for Dinner</Link>
-          <Modal show={showWFD} onHide={handleCloseWFD}>
+          <img src={AFJH} alt="AFJH Store" style={{ height: 175, width: 175}}></img>
+          <Link className='project-buttons' onClick={handleShowAFJH}>AFJH Store</Link>
+          <Modal show={showAFJH} onHide={handleCloseAFJH}>
             <Modal.Header closeButton>
-              <Modal.Title>What's for Dinner</Modal.Title>
+              <Modal.Title>AFJH Store</Modal.Title>
             </Modal.Header>
-            <Modal.Body> This was a 10-day project where I created a full-stack app with a React front end and Django Rest Framework back end. It is an app for people with a Learning Disability and their carers to support people to gain independence in choosing their meals.
+            <Modal.Body>This was a pair project. In 2 days we created a basic ecommerce site consuming a third party API.
             </Modal.Body>
             <Modal.Footer>
               <Button className="project-buttons"
-                variant="secondary" onClick={handleCloseWFD}>
-                <Link to="https://github.com/jillbmh/whats-for-dinner" target="_blank" className="link-text">View on GitHub</Link>
+                variant="secondary" onClick={handleCloseAFJH}>
+                <Link to= "https://github.com/jillbmh/afjh-store" target="_blank" className="link-text">View on GitHub</Link>
               </Button>
               <Button className="project-buttons"
-                variant="secondary" onClick={handleCloseWFD}>
-                <Link to="https://whats-for-dinner-jbmh-667af0679eab.herokuapp.com/"  target="_blank" className="link-text">Visit the Site</Link>
+                variant="secondary" onClick={handleCloseAFJH}>
+                <Link to= "https://64f5fc719369b4070a913fcd--jhaf-store.netlify.app/" target="_blank" className="link-text">Visit the Store</Link>
               </Button>
               <Button className="project-buttons"
-                variant="secondary" onClick={handleCloseWFD}>
+                variant="secondary" onClick={handleCloseAFJH}>
+                Close
+              </Button>
+            </Modal.Footer>
+          </Modal>
+        </article>
+        <article className="project-item">
+          <img src={Bluey} alt="Bluey-Game" style={{ height: 175, width: 175 }}></img>
+          <Link className='project-buttons' onClick={handleShowBluey}>Blueys Obstacle Course</Link>
+          <Modal show={showBluey} onHide={handleCloseBluey}>
+            <Modal.Header closeButton>
+              <Modal.Title>Blueys Obstacle Course</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>This was a 7-day solo project where I re-created the classic arcade game Frogger, taking inspiration from my youngest daughter's favourite TV show, Bluey. It is a browser game with so much potential for future development.
+            </Modal.Body>
+            <Modal.Footer>
+              <Button className="project-buttons"
+                variant="secondary" onClick={handleCloseBluey}>
+                <Link to= "https://github.com/jillbmh/Blueys-Obstacle-Course" target="_blank" className="link-text">View on GitHub</Link>
+              </Button>
+              <Button className="project-buttons"
+                variant="secondary" onClick={handleCloseBluey}>
+                <Link to="https://jillbmh.github.io/Blueys-Obstacle-Course/" target="_blank" className="link-text">Play</Link>
+              </Button>
+              <Button className="project-buttons"
+                variant="secondary" onClick={handleCloseBluey}>
                 Close
               </Button>
             </Modal.Footer>
